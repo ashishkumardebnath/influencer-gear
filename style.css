@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+   background-color: azure;
+}
+.container{
+   padding: 60px;
+   flex-direction: column;
+   align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+strong{
+    font-size: 1.5em;
+}
+span{
+    font-weight: bold;
+    margin-right: 20px;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+.description{
+    width: 500px;
+   
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+button{
+    background-color: coral;
+    border: 0px;
+    padding: 7px;
+    border-radius: 14px;
+}
+hr{
+    border: 1px solid rgb(226, 221, 221);
+
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#space{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+}
+.box{
+    justify-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.photo{
+    width: 270px;
+    background-color: rgba(255, 255, 255, 0.849);
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.photo img{
+    width: 100%;
+}
+.fa-solid ,.fa-regular{
+color: darkorange;
+}
+#see{
+    margin-left: 957px;
+}
+.container-pro{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.place{
+    margin-left: 100px;
+    padding-right: 100px;
+  
+}
+h3{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+
+}
+@media only screen and(max-width:688px){
+   .container,.box{
+    width: 100%;
+    grid-template-columns: repeat(1 ,1fr);
+   }
+}
+    
+
+   
+   
